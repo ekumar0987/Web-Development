@@ -1,0 +1,23 @@
+<html>
+<head>
+	<title>Form Demo</title>
+</head>
+<body>
+	<!-- action - where the form sends data to - by default refreshes the same pagew that you're on -->
+	<!-- method - what http method (get/post) - GET by default -->
+	<h1>Login</h1>
+	<form action="http://wikipedia.org" method="GET"> 
+		<label>
+			Username: 
+			<!-- required here is a 'validation', type="email" is also a type of validation -->
+			<!-- name adds data to the query string in the browser url -->
+			<input name="username" type="email" placeholder="username" required>  
+		</label>
+		<label>
+			Password: 
+			<input name="password" type="password" placeholder="password">
+		</label>
+		<button>Submit</button>
+	</form>
+</body>
+</html>
