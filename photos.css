@@ -1,0 +1,5 @@
+img{
+	width: 30%;     /*3 images are on each row. This takes up 90% */
+	margin: 1.66%;  /*gap between the photos. 10% / 6 = 1.66% */
+	float: left;    /* arrange elements side by side vs stacked*/
+}
