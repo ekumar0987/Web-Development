@@ -3,3 +3,14 @@ img{
 	margin: 1.66%;  /*gap between the photos. 10% / 6 = 1.66% */
 	float: left;    /* arrange elements side by side vs stacked*/
 }
+
+p{
+	font-family: Raleway;
+	margin-left: 1.66%;
+	font-size: 23px;
+	font-weight: 800;
+	text-transform: uppercase;
+	border-bottom: 3px solid #F1F1F1;
+	width: 30%;
+	padding-bottom: 5px;
+}
