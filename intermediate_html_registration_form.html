@@ -1,0 +1,44 @@
+<html>
+<head>
+	<title>Registration</title>
+</head>
+<body>
+	<h1>Register</h1>
+	<form>
+		<label>First Name: <input type="text"></label>
+		<label>Last Name: <input type="text"></label>
+		<p>
+		<label>Male: <input name="gender" type="radio"></label>
+		<label>Female: <input name="gender" type="radio"></label>
+		<label>Other: <input name="gender" type="radio"></label>
+		</p>
+		<p>
+		<label>Email: <input type="email" required></label>
+		<label>Password: <input type="password" pattern=".{6,15}" required title = "6 characters minimum, 15 characters maximum"></label> <!-- 6 characters minimum -->
+		</p>
+		<p>
+		<label>
+			Birthday: 
+			<select name = "Month">
+				<option>Jan</option>
+				<option>Feb</option>
+			</select>
+			<select name = "Day">
+				<option>1</option>
+				<option>2</option>
+			</select>
+			<select name = "Year">
+				<option>2016</option>
+				<option>2017</option>
+			</select>	
+		</label>
+		</p>
+		<p>
+		I agree to the terms and conditions
+		<input type="checkbox"></input>
+		</p>
+		<button>Submit</button>
+	</form>
+
+</body>
+</html>
