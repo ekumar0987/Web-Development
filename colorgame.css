@@ -1,0 +1,24 @@
+body{
+	background-color: #232323;
+}
+
+.square {
+	width: 30%;
+	margin: 1.66%;
+	background: purple;
+	float: left;
+	padding-bottom: 30%;   /* squares are not seen w/o this */
+}
+
+#container{
+	max-width: 600 px;
+	margin: 0 auto;        /* 0 margin on top and auto makes it equidistant from left and right */
+}
+
+h1{
+	color: white;
+}
+
+span{
+	color: white;
+}
